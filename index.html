@@ -8,17 +8,27 @@
     <title>Weather App</title>
   </head>
   <body>
-    <h1>Current Weather</h1>
-    <h3 id="location"></h3>
-    <img src="#" id="current-pic" />
-    <h3 id="current"></h3>
+    <div class="container">
+      <div class="box-header">
+        <h1>Current Weather</h1>
+      </div>
 
-    <ul>
-      <li>Temperature: <span id="temp"></span>&#8451;</li>
-      <li>Feels like: <span id="feels-like"></span>&#8451;</li>
-      <li>Humidity: <span id="humidity"></span></li>
-      <li>Wind: <span id="wind"></span> mph</li>
-    </ul>
+      <h3 id="location"></h3>
+      <img src="#" id="current-pic" />
+      <h3 id="current"></h3>
+
+      <ul>
+        <li>Temperature: <span id="temp"></span>&#8451;</li>
+        <li>Feels like: <span id="feels-like"></span>&#8451;</li>
+        <li>Humidity: <span id="humidity"></span></li>
+        <li>Wind: <span id="wind"></span> mph</li>
+      </ul>
+
+      <form action="#">
+        <input type="text" id="search" />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
